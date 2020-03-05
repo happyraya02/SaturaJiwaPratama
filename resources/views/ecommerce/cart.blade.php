@@ -62,13 +62,13 @@
 					          	</div>
                               </td>
                             </tr>
-                            @empty
-                            @endforelse
 							<tr class="bottom_button">
 								<td>
 									<button class="gray_btn">Update Cart</button>
                                 </td>
                             </tr>
+                                @empty
+                            @endforelse
 						    </tbody>
 						  </table>
 					  </div>
