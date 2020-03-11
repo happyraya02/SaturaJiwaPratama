@@ -12,7 +12,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
                 <a class="dropdown-item" href="{{ route('front.product') }}">Shop</a>
-                <a class="dropdown-item" href="cart.html">Cart</a>
+              <a class="dropdown-item" href="{{route('front.cart')}}">Cart</a>
                 <a class="dropdown-item" href="checkout.html">Checkout</a>
               </div>
             </li>

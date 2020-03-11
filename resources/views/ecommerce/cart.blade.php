@@ -33,7 +33,7 @@
 						    </thead>
 						    <tbody>
 
-                                @forelse ($carts as $row)
+                            @foreach ($carts as $row)
 						      <tr class="text-center">
 						        <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
 
@@ -68,7 +68,7 @@
                                 </td>
                             </tr>
                                 @empty
-                            @endforelse
+                            @endforeach
 						    </tbody>
 						  </table>
 					  </div>

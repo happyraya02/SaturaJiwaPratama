@@ -47,7 +47,7 @@
 	                     <i class="ion-ios-add"></i>
                      </button>
                     </div>
-                   <a href="cart.html" class="btn btn-black py-3 px-5">Add to Cart</a>
+                <a href="{{route('front.cart')}}" class="btn btn-black py-3 px-5">Add to Cart</a>
 
                   </form>
           	        </div>
